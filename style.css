@@ -199,3 +199,34 @@
     position: fixed;
     width: 100vw;
 }
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-item {
+  margin-right: 20px;
+}
+
+.contact-item img {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.contact-item span {
+  font-size: 14px;
+}
